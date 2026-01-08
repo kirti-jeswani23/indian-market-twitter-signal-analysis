@@ -1,0 +1,7 @@
+requests
+pandas
+bs4
+pyarrow
+scikit-learn
+matplotlib
+snscrape

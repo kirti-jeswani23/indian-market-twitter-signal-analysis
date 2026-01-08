@@ -1,0 +1,4 @@
+- Collected ~2000 tweets across Indian market hashtags
+- Aggregated engagement-based signal scores hourly
+- Generated confidence intervals to estimate signal reliability
+- Observed higher signal volatility during market open hours

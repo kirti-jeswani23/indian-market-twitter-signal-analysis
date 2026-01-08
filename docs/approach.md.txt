@@ -1,0 +1,26 @@
+# Technical Approach
+
+## Data Collection
+Authenticated scraping using Playwright to bypass API limits
+and collect real-time tweets from Indian market-related hashtags.
+
+## Data Storage
+Parquet format chosen for:
+- Compression
+- Faster reads
+- Scalability to millions of rows
+
+## Feature Engineering
+- Tweet length
+- Capitalization ratio
+- Engagement metrics (likes, retweets, replies)
+- TF-IDF textual strength
+
+## Signal Construction
+Weighted engagement score combined with TF-IDF
+Aggregated hourly with confidence intervals.
+
+## Scalability Considerations
+- Chunk-based Parquet reads
+- Sampling for visualization
+- Designed to scale 10x without memory overflow
